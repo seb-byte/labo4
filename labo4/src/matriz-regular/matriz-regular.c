@@ -1,4 +1,8 @@
 #include <stdio.h>
+/**
+*Esta es la función principal
+*Aquí se crea la matriz, se calcula el determinante y se determina si es regular o no
+*/
 
 int main() {
   int matriz[3][3];
