@@ -2,6 +2,14 @@
 #include <stdlib.h>
 #include <time.h>
 
+/**
+La función le solicita tres valores al usuario
+utilizando la función scanf. Empleando srand y rand se podían generar los 1000 números aleatorios.
+La función srand tomaba el valor de la semilla, que en caso de ser pseudoaleatoria se emplearía
+el tiempo para que siempre fuese una diferente. Por otro lado, la función rand hacía uso de los
+límites escogidos para generar así los números
+*/
+
 int main() {
     int lim_inferior, lim_superior, semilla, suma = 0;
  
