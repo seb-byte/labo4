@@ -1,6 +1,14 @@
 #include <stdio.h>
 #include <string.h>
-
+/**
+*El programa consta de una función 
+*Esta función se fija si lo introducido por el usuario era una letra,
+*para esto se fijaba carácter por carácter si iba de la a la z o de A a las Z. En el caso de que si se
+*cumpliera esto se revisaba si cumple con que el carácter era aeiou o AEIOU, si era alguno de esto
+*se le sumaba uno al número de vocales y de lo contrario, le sumaba uno al número de consonantes.
+*En el caso de detectar que no fuera una letra se contaba como dígito y se le sumaba uno a los
+*dígitos.
+*/
 int main()
 {
     char str[20];
