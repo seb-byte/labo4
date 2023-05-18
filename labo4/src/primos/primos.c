@@ -2,6 +2,16 @@
 
 #include <stdio.h>
 
+/**
+*La función que se encarga de determinar si
+*un número es primo, esto lo hace, analizando primero los casos de 0, 1 y 4 debido a sus condiciones
+*especiales. En caso de que el número introducido no fuera ninguno de estos, se procedía a analizar
+*el restante de la división del número digitado entre todos los números, empezando desde dos hasta
+*llegar a la mitad del número introducido. De este modo se encuentra si el número es divisible
+*por cualquier otro n´umero que no sea 1 o si mismo, determinando as´ı si el número introducido es
+*primo o no
+*/
+
 int detcondición(int num_usuario);
 
 int main(void) {
