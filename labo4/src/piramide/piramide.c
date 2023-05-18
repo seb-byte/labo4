@@ -1,5 +1,10 @@
 #include <stdio.h>
-
+/**
+*La función le solicita al usuario el valor de n que este quería para generar así la pirámide
+*de números. Para generar la pirámide se utilizaron dos for anidados para poder generar las filas
+*como se requería para lograr imprimir la pirámide, también fue necesario el uso de la funci´on
+*printf al igual que el /n para cambiar de línea.
+*/
 int main() {
     int n, fila, columna, num;
     printf("Digite el valor de n para generar la pirámide: ");
